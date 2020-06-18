@@ -79,19 +79,38 @@
     </div>
 
   <!--Gallery-->
-  <div class="container-fluid text-center" style="background-color: #1e2022; color:#f0f5f9; height: 100vh; width: 100%;">
+  <div class="container-fluid text-center" style="background-color: #1e2022; color:#f0f5f9; min-height: 100vh; width: 100%;">
     <h1 class="display-2" style="color:#f0f5f9"><u style="text-decoration-thickness: 1%;">Work</u></h1>
     <div class="row padded justify-content-center">
-    <div class="col-12">
-     <iframe width="315" height="300" style="z-index: 10000;" allowfullscreen>
-      <source src="images/Me.jpg">
-    </iframe>
+    <div class="col-6">
+          <image height="300" width="300" src="images/Me.jpg" class="img-fluid rounded">
+          </image>
     </div>
+    <div class="col-6">
+      <p>
+        This game is the next generation of games my.
+      </p>
+    </div>
+    </div>
+    <div class="row padded justify-content-center">
+      <div class="col-6">
+        
+
+      </div>
+      <div class="col-6">
+        <p>
+          This game is the next generation of games my.
+        </p>
+      </div>
+    </div>
+
   </div>
+  
   </div>
 
+
   <!--Contact Me-->
-  <div class="container-fluid padding" style="background-color: #1e2022; color: #f0f5f9; height: 100vh; width: 100%;" >
+  <div class="container-fluid padding" style="background-color: #1e2022; color: #f0f5f9; min-height: 100vh; width: 100%;" >
     <div class="row text-center">
       <div class="col-12">
       <h1 class=display-3  style="padding-top: 10vh;">
@@ -116,7 +135,7 @@
     var myVar;
 
 function myFunction() {
-  myVar = setTimeout(showPage, 3000);
+  myVar = setTimeout(showPage, 1500);
 }
 
 function showPage() {
