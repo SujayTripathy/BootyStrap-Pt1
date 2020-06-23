@@ -93,12 +93,12 @@
 
 #me{
  
-margin-top: 10vh;
+margin-top: 0;
 margin-bottom: 10vh;
-margin-left:15vh;
+margin-left:7.5vh;
 filter: grayscale(1);
-height:30vh;
-width:25vh;
+height:60vh;
+width:40vh;
 } 
 
 #medesc{
