@@ -40,4 +40,6 @@ margin-right: 0px!important;
   background: url('') no-repeat;
   background-size: cover;
   transition: 1s opacity;
+  filter:blur(8px);
+  -webkit-filter: blur(8px);
 }
